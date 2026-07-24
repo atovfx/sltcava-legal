@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Slt ça va</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: #0a0a0b; color: #e7e7ea;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6; font-size: 16px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 80px; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 34px 0 10px; color: #fff; }
+  .eyebrow { color: #ff2e93; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: 12px; }
+  .meta { color: #9a9aa2; font-size: 14px; margin-bottom: 8px; }
+  a { color: #ff5aa8; }
+  p, li { color: #cfcfd6; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 14.5px; display: block; overflow-x: auto; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #24242a; vertical-align: top; }
+  th { color: #fff; }
+  .note { background: #161618; border: 1px solid #2c2c31; border-radius: 12px; padding: 14px 16px; color: #b9b9c2; font-size: 14.5px; margin: 18px 0; }
+  footer { margin-top: 44px; color: #6f6f78; font-size: 13px; }
+  hr { border: none; border-top: 1px solid #24242a; margin: 30px 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">Slt ça va</div>
+  <h1>Politique de confidentialité</h1>
+  <div class="meta">Dernière mise à jour : 24 juillet 2026</div>
+
+  <p>La présente politique explique quelles données l'application mobile <strong>Slt ça va</strong> (« l'Application ») traite, pourquoi, et quels sont tes droits. Slt ça va est une application qui génère des suggestions de messages pour applications de rencontre à partir de captures d'écran que tu importes.</p>
+
+  <div class="note">Éditeur : <strong>[Nom de l'éditeur / Robin Basile]</strong> — contact : <a href="mailto:robin.basile@icloud.com">robin.basile@icloud.com</a>. Responsable du traitement au sens du RGPD.</div>
+
+  <h2>1. Le principe : le moins de données possible</h2>
+  <p>L'Application est conçue pour fonctionner <strong>sans compte nominatif</strong>. Nous ne te demandons ni nom, ni adresse e-mail, ni numéro de téléphone pour l'utiliser. Nous ne vendons aucune donnée et n'affichons pas de publicité tierce à l'intérieur de l'Application.</p>
+
+  <h2>2. Données que nous traitons</h2>
+  <table>
+    <tr><th>Donnée</th><th>Finalité</th><th>Conservation</th></tr>
+    <tr><td>Captures d'écran de profils / conversations que tu importes</td><td>Générer les suggestions de messages. Les images sont transmises à notre prestataire d'IA pour analyse, le temps de la génération.</td><td>Non conservées durablement sur nos serveurs après la génération.</td></tr>
+    <tr><td>Identifiant technique anonyme</td><td>Créer une session d'appareil (authentification anonyme) pour appliquer les quotas et empêcher les abus.</td><td>Tant que l'app est installée.</td></tr>
+    <tr><td>Compteurs d'usage (nombre de générations)</td><td>Appliquer le quota gratuit et la limite anti-abus.</td><td>Durée de vie du compte anonyme.</td></tr>
+    <tr><td>Statut d'abonnement</td><td>Débloquer les fonctionnalités Pro. Vérifié via une preuve d'achat signée par Apple.</td><td>Durée de l'abonnement.</td></tr>
+    <tr><td>Préférences de style et profil de rédaction</td><td>Adapter le ton des suggestions à ta voix. Stockées principalement sur ton appareil.</td><td>Sur l'appareil ; supprimées à la désinstallation.</td></tr>
+    <tr><td>Code parrain (facultatif)</td><td>Attribution d'un parrainage si tu en saisis un.</td><td>Le temps du traitement de l'attribution.</td></tr>
+    <tr><td>Données techniques d'attribution et de mesure</td><td>Comprendre d'où viennent les installations et mesurer l'efficacité de l'app (voir §4).</td><td>Selon nos prestataires.</td></tr>
+  </table>
+  <p>Nous ne collectons pas volontairement de données sensibles. Les captures que tu importes peuvent contenir des informations personnelles de tiers : tu es responsable de ne partager que des contenus que tu es en droit d'utiliser.</p>
+
+  <h2>3. Bases légales (RGPD)</h2>
+  <ul>
+    <li><strong>Exécution du contrat</strong> : fournir la génération de messages et gérer ton abonnement.</li>
+    <li><strong>Intérêt légitime</strong> : sécuriser le service, prévenir la fraude et les abus, mesurer l'audience de manière proportionnée.</li>
+    <li><strong>Consentement</strong> : suivi publicitaire (App Tracking Transparency) — demandé séparément et révocable à tout moment dans les réglages iOS.</li>
+  </ul>
+
+  <h2>4. Prestataires (sous-traitants)</h2>
+  <p>Nous nous appuyons sur des prestataires qui traitent des données pour notre compte :</p>
+  <ul>
+    <li><strong>OpenAI</strong> — analyse des captures et génération des messages. Traitement pouvant avoir lieu aux États-Unis.</li>
+    <li><strong>Supabase</strong> — hébergement du backend, authentification anonyme, base de données (hébergement dans l'Union européenne).</li>
+    <li><strong>Apple</strong> — traitement des achats et abonnements via l'App Store. Nous n'avons jamais accès à tes moyens de paiement.</li>
+    <li><strong>Superwall</strong> — affichage et mesure de l'écran d'abonnement.</li>
+    <li><strong>AppsFlyer</strong> — attribution des installations et mesure marketing.</li>
+  </ul>
+
+  <h2>5. Transferts hors de l'Union européenne</h2>
+  <p>Certains prestataires (notamment OpenAI) peuvent traiter des données aux États-Unis. Ces transferts sont encadrés par les mécanismes prévus par le RGPD (clauses contractuelles types ou équivalent).</p>
+
+  <h2>6. Tes droits</h2>
+  <p>Conformément au RGPD, tu disposes des droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité. Comme l'Application ne t'identifie pas nominativement, nous pouvons te demander des éléments techniques (identifiant de session) pour traiter ta demande. Pour exercer un droit : <a href="mailto:robin.basile@icloud.com">robin.basile@icloud.com</a>. Tu peux aussi saisir la CNIL (<a href="https://www.cnil.fr">cnil.fr</a>).</p>
+
+  <h2>7. Suivi publicitaire et App Tracking Transparency</h2>
+  <p>Si tu y consens via la fenêtre iOS, un identifiant publicitaire peut être utilisé pour l'attribution. Tu peux refuser ou revenir sur ton choix à tout moment dans Réglages → Confidentialité et sécurité → Suivi.</p>
+
+  <h2>8. Âge minimum</h2>
+  <p>L'Application est destinée aux personnes de <strong>17 ans et plus</strong>. Elle n'est pas destinée aux mineurs de moins de 17 ans.</p>
+
+  <h2>9. Modifications</h2>
+  <p>Nous pouvons mettre à jour cette politique. La date de dernière mise à jour figure en haut de page. En cas de changement important, nous t'en informerons dans l'Application.</p>
+
+  <hr>
+  <p>Pour toute question relative à cette politique : <a href="mailto:robin.basile@icloud.com">robin.basile@icloud.com</a>.</p>
+
+  <footer>© 2026 Slt ça va — Tous droits réservés.</footer>
+</div>
+</body>
+</html>
